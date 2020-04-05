@@ -34,7 +34,7 @@
         {
             "acrylicOpacity" : 0.1,
             "closeOnExit" : true,
-            "colorScheme" : "Campbell",
+            "colorScheme" : "Firewatch",
             "commandline" : "wsl.exe -d Ubuntu-18.04",
             "cursorColor" : "#FFFFFF",
             "cursorShape" : "bar",
@@ -42,7 +42,7 @@
             "fontSize" : 14,
             "guid" : "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
             "historySize" : 9001,
-            "icon" : "ms-appdata:///roaming/ubuntu.png",
+            "icon" : "C:/Users/Sebika/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/ubuntu.ico",
             "name" : "Ubuntu-18.04",
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
@@ -106,5 +106,27 @@
             "useAcrylic" : true
         }
     ],
-    "schemes" : []
+    "schemes" : [
+        {
+            "name": "Firewatch",
+            "black": "#585f6d",
+            "red": "#d95360",
+            "green": "#91f8b0",
+            "yellow": "#dfb563",
+            "blue": "#2f70b1",
+            "purple": "#d55119",
+            "cyan": "#44a8b6",
+            "white": "#e6e5ff",
+            "brightBlack": "#585f6d",
+            "brightRed": "#d95360",
+            "brightGreen": "#5ab977",
+            "brightYellow": "#dfb563",
+            "brightBlue": "#4c89c5",
+            "brightPurple": "#d55119",
+            "brightCyan": "#44a8b6",
+            "brightWhite": "#e6e5ff",
+            "background": "#1e2027",
+            "foreground": "#c5c9d1"
+          }
+    ]
 }
