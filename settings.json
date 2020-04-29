@@ -1,14 +1,13 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "globals" :
-    {
         "alwaysShowTabs" : true,
         "copyOnSelect" : false,
         "defaultProfile" : "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
-        "initialCols" : 120,
-        "initialRows" : 30,
+        "initialCols" : 100,
+        "initialRows" : 25,
         "keybindings" :
         [
+            { "command": { "action": "splitPane", "split": "horizontal"}, "keys": "alt+shift+-" },
             { "command" : "closePane", "keys" : ["ctrl+w"] },
             { "command" : "copy", "keys" : ["ctrl+shift+c"] },
             { "command" : "duplicateTab", "keys" : ["ctrl+shift+d"] },
@@ -17,32 +16,26 @@
             { "command" : "scrollDown", "keys" : ["ctrl+shift+down"] },
             { "command" : "scrollDownPage", "keys" : ["ctrl+shift+pgdn"] },
             { "command" : "scrollUp", "keys" : ["ctrl+shift+up"] },
-            { "command" : "scrollUpPage", "keys" : [ "ctrl+shift+pgup"] },
-            { "command" : "switchToTab0", "keys" : [ "ctrl+1"] },
-            { "command" : "switchToTab1", "keys" : [ "ctrl+2"] },
-            { "command" : "switchToTab2", "keys" : [ "ctrl+3"] },
-            { "command" : "switchToTab3", "keys" : [ "ctrl+4"] },
-            { "command" : "switchToTab4", "keys" : [ "ctrl+5"] }
+            { "command" : "scrollUpPage", "keys" : [ "ctrl+shift+pgup"] }
         ],
-        "requestedTheme" : "dark",
+        "theme" : "dark",
         "showTabsInTitlebar" : true,
         "showTerminalTitleInTitlebar" : true,
-        "wordDelimiters" : " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502"
-    },
+        "wordDelimiters" : " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502",
     "profiles" :
     [
         {
             "acrylicOpacity" : 0.1,
             "closeOnExit" : true,
-            "colorScheme" : "Dark+",
+            "colorScheme" : "Tango Dark",
             "commandline" : "wsl.exe -d Ubuntu-18.04",
             "cursorColor" : "#FFFFFF",
             "cursorShape" : "bar",
-            "fontFace" : "Consolas",
+            "fontFace" : "Cascadia Code",
             "fontSize" : 16,
             "guid" : "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
             "historySize" : 9001,
-            "icon" : "C:/Users/Sebika/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/ubuntu.ico",
+            "icon" : "C:/Users/Sebika/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/ubuntu.png",
             "name" : "Ubuntu-18.04",
             "padding" : "5, 5, 5, 5",
             "snapOnInput" : true,
@@ -91,7 +84,7 @@
             "closeOnExit" : false,
             "colorScheme" : "Vintage",
             "commandline" : "Azure",
-            "connectionType" : "{d9fcfdfa-a479-412c-83b7-c5640e61cd62}",
+            //"connectionType" : "{d9fcfdfa-a479-412c-83b7-c5640e61cd62}",
             "cursorColor" : "#FFFFFF",
             "cursorShape" : "bar",
             "fontFace" : "Consolas",
