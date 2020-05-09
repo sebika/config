@@ -12,6 +12,8 @@ alias gc='git commit -m'
 alias gpo='git push origin'
 
 alias c='clear'
+alias update='sudo apt-get update'
+alias upgrade='sudo apt-get upgrade'
 
 # If not running interactively, don't do anything
 case $- in
