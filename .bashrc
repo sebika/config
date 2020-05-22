@@ -131,5 +131,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-[ -f "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env" ] && source "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env"
-. $HOME/.ghcup/env

@@ -40,7 +40,7 @@
             "padding" : "5, 5, 5, 5",
             "snapOnInput" : true,
             "startingDirectory" : "//wsl$/Ubuntu-18.04/home/sebika",
-            "useAcrylic" : true
+            "useAcrylic" : false
         },
         {
             "acrylicOpacity" : 0.5,
