@@ -9,7 +9,9 @@ alias please='sudo'
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit -m'
-alias gpo='git push origin'
+alias gp='git push'
+
+alias haskell='stack exec ghci'
 
 alias c='clear'
 alias update='sudo apt-get update'
