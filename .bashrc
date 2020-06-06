@@ -11,6 +11,9 @@ alias ga='git add'
 alias gc='git commit -m'
 alias gp='git push'
 
+alias adb='adb.exe'
+alias gui='scrcpy.exe'
+
 alias haskell='stack exec ghci'
 
 alias c='clear'
@@ -18,6 +21,7 @@ alias update='sudo apt-get update'
 alias upgrade='sudo apt-get upgrade'
 
 alias drop_cache="sudo sh -c \"echo 3 >'/proc/sys/vm/drop_caches' && swapoff -a && swapon -a && printf '\n%s\n' 'Ram-cache and Swap Cleared'\""
+
 
 # If not running interactively, don't do anything
 case $- in
