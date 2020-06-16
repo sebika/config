@@ -113,24 +113,6 @@
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%",
             "useAcrylic" : false
-        },
-        {
-            "acrylicOpacity" : 0.1,
-            "closeOnExit" : true,
-            "colorScheme" : "Tango Dark",
-            "commandline" : "wsl.exe -d Ubuntu-18.04",
-            "cursorColor" : "#FFFFFF",
-            "cursorShape" : "bar",
-            "fontFace" : "Cascadia Code",
-            "fontSize" : 16,
-            "guid" : "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
-            "historySize" : 9001,
-            "icon" : "C:/Users/Sebika/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/ubuntu.png",
-            "name" : "Ubuntu-18.04",
-            "padding" : "5, 5, 5, 5",
-            "snapOnInput" : true,
-            "startingDirectory" : "//wsl$/Ubuntu-18.04/home/sebika",
-            "useAcrylic" : false
         }
     ],
     "schemes" : [
