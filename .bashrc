@@ -80,36 +80,10 @@ fi
 parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
-virtualenv_info(){
-    # Get Virtual Env
-    if [[ -n "$VIRTUAL_ENV" ]]; then
-        # Strip out the path and just leave the env name
-        venv="${VIRTUAL_ENV##*/}"
-    else
-        # In case you don't have one activated
-        venv=''
-    fi
-    [[ -n "$venv" ]] && echo ">> ($venv) <<"
-}
-
-<<<<<<< HEAD
-export VIRTUAL_ENV_DISABLE_PROMPT=1
-
 if [ "$color_prompt" = yes ]; then
-    PS1='\n$(virtualenv_info)\n${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\[\033[01;32m\]\h \[\033[0m\]in \[\033[01;34m\][\W]\[\033[01;31m\]$(parse_git_branch)\[\033[00m\] \n$ '
-=======
-<<<<<<< HEAD
-export VIRTUAL_ENV_DISABLE_PROMPT=1
-
-if [ "$color_prompt" = yes ]; then
-    PS1='$(virtualenv_info)\n${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\[\033[01;32m\]\h \[\033[0m\]in \[\033[01;34m\][\W]\[\033[01;31m\]$(parse_git_branch)\[\033[00m\] \n$ '
-=======
-if [ "$color_prompt" = yes ]; then
-    PS1='$(virtualenv_info)\n${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u:\[\033[01;34m\][\W]\[\033[01;31m\]$(parse_git_branch)\[\033[00m\]\$ '
->>>>>>> 4b73bcc32a565ebf4b3b1d3bce9b4de14a34d525
->>>>>>> d5fb24d50f09ca67c4dbf008e17df1c8f3562635
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u:\[\033[01;34m\][\W]\[\033[01;31m\]$(parse_git_branch)\[\033[00m\]\$ '
 else
-    PS1='$(virtualenv_info)\n${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
 unset color_prompt force_color_prompt
 
