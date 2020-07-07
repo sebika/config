@@ -92,10 +92,15 @@ virtualenv_info(){
     [[ -n "$venv" ]] && echo ">> ($venv) <<"
 }
 
+<<<<<<< HEAD
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
 if [ "$color_prompt" = yes ]; then
     PS1='$(virtualenv_info)\n${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\[\033[01;32m\]\h \[\033[0m\]in \[\033[01;34m\][\W]\[\033[01;31m\]$(parse_git_branch)\[\033[00m\] \n$ '
+=======
+if [ "$color_prompt" = yes ]; then
+    PS1='$(virtualenv_info)\n${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u:\[\033[01;34m\][\W]\[\033[01;31m\]$(parse_git_branch)\[\033[00m\]\$ '
+>>>>>>> 4b73bcc32a565ebf4b3b1d3bce9b4de14a34d525
 else
     PS1='$(virtualenv_info)\n${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
