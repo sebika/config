@@ -2,6 +2,17 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+eval "$(direnv hook bash)"
+
+##################################
+# Ogor shortcuts
+##################################
+alias activate='source .venv/bin/activate'
+alias start_postgres='sudo pg_ctlcluster 12 main start'
+alias start_bokeh='bokeh serve tiles_tabs.py --allow-websocket-origin=0.0.0.0:5000'
+alias start_backend='python manage.py runserver'
+
+
 alias open='explorer.exe'
 alias desktop='cd /mnt/c/Users/Sebika/Desktop'
 alias please='sudo'
