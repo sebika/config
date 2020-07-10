@@ -4,15 +4,6 @@
 
 eval "$(direnv hook bash)"
 
-##################################
-# Ogor shortcuts
-##################################
-alias activate='source .venv/bin/activate'
-alias start_postgres='sudo pg_ctlcluster 12 main start'
-alias start_bokeh='bokeh serve tiles_tabs.py --allow-websocket-origin=0.0.0.0:5000'
-alias start_backend='python manage.py runserver'
-
-
 alias open='explorer.exe'
 alias desktop='cd /mnt/c/Users/Sebika/Desktop'
 alias please='sudo'
@@ -101,7 +92,7 @@ unset color_prompt force_color_prompt
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
-    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+    PS1="\[\e]0;Ubuntu 20.04\a\]$PS1"
     ;;
 *)
     ;;

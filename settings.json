@@ -59,6 +59,25 @@
             "useAcrylic" : false
         },
         {
+            "acrylicOpacity" : 0.1,
+            "closeOnExit" : true,
+            "colorScheme" : "Tango Dark",
+            "cursorColor" : "#FFFFFF",
+            "cursorShape" : "bar",
+            "fontFace" : "Cascadia Code",
+            "fontSize" : 16,
+            "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
+            "historySize" : 9001,
+            "icon" : "C:/Users/Sebika/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/kali.png",
+            "name": "kali-linux",
+            "padding" : "5, 5, 5, 5",
+            "snapOnInput" : true,
+            "startingDirectory" : "//wsl$/kali-linux/home/sebika",
+            "useAcrylic" : false,
+            "hidden": false,
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
             "acrylicOpacity" : 0.5,
             "background" : "#012456",
             "closeOnExit" : true,
