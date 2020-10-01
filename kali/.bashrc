@@ -4,6 +4,7 @@
 
 eval "$(direnv hook bash)"
 
+alias atom='/mnt/c/Users/Sebika/AppData/Local/atom/app-1.51.0/atom.exe'
 alias open='explorer.exe'
 alias desktop='cd /mnt/c/Users/Sebika/Desktop'
 alias please='sudo'

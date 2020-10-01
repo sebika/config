@@ -1,3 +1,3 @@
-# Local settings for wsl
+# Local config files
 
-`.wslconfig` file needs to be created in `%UserProfile%` folder
+This repo exists because I really hate the setup when installing a new OS.
