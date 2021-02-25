@@ -1,0 +1,3 @@
+bind mwheelup +jump
+bind mwheeldown +jump
+bind q "toggle cl_righthand 0 1"
