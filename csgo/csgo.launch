@@ -1,1 +1,0 @@
--tickrate 128 +fps_max 0 -novid -nojoy -refresh 144 -d3d9ex
