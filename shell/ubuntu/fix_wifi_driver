@@ -2,3 +2,5 @@ sudo vim etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
 wifi.powersave = 2
 
 sudo iwconfig wlp7s0 power off
+
+sudo service network-manager restart
