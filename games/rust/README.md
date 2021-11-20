@@ -20,5 +20,5 @@ graphics.vm_fov_scale false
 player.recoilcomp true
 physics.steps 60
 graphics.waves 0
-bind mouse1 "+attack2;+input.sensitivity .7;input.sensitivity .260741;"
+bind mouse1 "+attack2;+input.sensitivity .260741;input.sensitivity .260741;"
 ```
