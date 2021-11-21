@@ -1,6 +1,6 @@
 ## Launch options
 ```
--high -maxMem=X -malloc=system -force-feature-level-11-0 -cpuCount=X -exThreads=X -force-d3d11-no-singlethreaded
+-rate 144 -high -maxMem=10240 -malloc=system -force-feature-level-11-0 -cpuCount=8 -exThreads=8 -force-d3d11-no-singlethreaded -window-mode exclusive -nolog -nopopupwindow
 ```
 
 ## Sensitivity
