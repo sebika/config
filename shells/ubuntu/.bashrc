@@ -2,9 +2,6 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-eval "$(direnv hook bash)"
-
-alias atom='/mnt/c/Users/Sebika/AppData/Local/atom/app-1.51.0/atom.exe'
 alias open='explorer.exe'
 alias desktop='cd /mnt/c/Users/Sebika/Desktop'
 alias please='sudo'
@@ -88,7 +85,7 @@ unset color_prompt force_color_prompt
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
-    PS1="\[\e]0;KALI\a\]$PS1"
+    PS1="\[\e]0;Ubuntu 20.04\a\]$PS1"
     ;;
 *)
     ;;
