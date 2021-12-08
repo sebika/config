@@ -21,6 +21,5 @@ player.recoilcomp true
 physics.steps 60
 graphics.waves 0
 bind mouse1 "+attack2;+input.sensitivity .260741;input.sensitivity .260741;"
-bind m "graphics.fov 60;graphics.lodbias 0"
-bind n "graphics.fov 90;graphics.lodbias 2"
+bind z "+graphics.fov 90;graphics.fov 70"
 ```
