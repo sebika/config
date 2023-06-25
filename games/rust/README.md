@@ -3,6 +3,9 @@
 -rate 144 -high -maxMem=10240 -malloc=system -force-feature-level-11-0 -cpuCount=8 -exThreads=8 -force-d3d11-no-singlethreaded -window-mode exclusive -nolog -nopopupwindow
 ```
 
+## Posty settings link
+https://www.youtube.com/watch?v=y--j4b9wtcU&ab_channel=Rusty
+
 ## Sensitivity
 ```
 FOV: 90
