@@ -16,7 +16,8 @@ mouse: CPI 800
 ## Binds
 ```
 bind q forward;sprint
-bind f1 consoletoggle;combatlog
+bind backquote consoletoggle;combatlog
+bind delete kill;
 perf 1
 hitnotify.notification_level 2
 graphics.vm_fov_scale false
